@@ -36,4 +36,5 @@ print(dt["booking"]["bookingdates"]["checkout"])
 
 
 #Remove a key-value pair from the dictionary.
-print(my_data.clear())
+my_data.pop("bookingid")
+print(my_data)
