@@ -10,8 +10,6 @@ class Person:
         print(self.Name,self.Age,self.Address)
 
 
-
-
 HP=Person()
 
 HP.Name=input("Enter your name:\n")
@@ -19,3 +17,15 @@ HP.Age=input("Enter your age:\n")
 HP.Address=input("Enter your address:\n")
 
 HP.deatils()
+
+
+
+PK=Person()
+
+PK.Name=input("Enter your name:\n")
+PK.Age=input("Enter your age:\n")
+PK.Address=input("Enter your address:\n")
+
+PK.deatils()
+
+
